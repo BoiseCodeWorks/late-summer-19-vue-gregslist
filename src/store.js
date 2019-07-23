@@ -11,6 +11,9 @@ let api = axios.create({
 
 export default new Vuex.Store({
   state: {
+    user: {
+      _id: 'sdfsdf'
+    },
     cars: [],
     activeCar: {}
   },
